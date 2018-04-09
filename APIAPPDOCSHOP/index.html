@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang = "en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="index.css" rel="stylesheet" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <nav role = "navigation" class="navbar">
+      <a href ="#" id="mainLogo" >DOC-Shopper</a>
+      <!--<div class="dropdown">-->
+      <!--  <button class="dropbtn">Appliances-->
+      <!--    <i class="fafa-caret-down"></i>-->
+      <!--   </button>-->
+      <!--  <div class="dropdown-content">-->
+      <!--    <a href="#">Microwave Ovens</a>-->
+      <!--    <a href="#">Ranges</a>-->
+      <!--    <a href="#">Refrigerators</a>-->
+      <!--  </div>-->
+      <!--</div> -->
+      <!--  <div class="dropdown">-->
+      <!--  <button class="dropbtn">Audio-->
+      <!--    <i class="fa fa-caret-down"></i>-->
+      <!--   </button>-->
+      <!--  <div class="dropdown-content">-->
+      <!--    <a href="#">Microwave Ovens</a>-->
+      <!--    <a href="#">Ranges</a>-->
+      <!--    <a href="#">Refrigerators</a>-->
+      <!--  </div>-->
+      <!--</div> -->
+      <!-- <div class="dropdown">-->
+      <!--  <button class="dropbtn">Video-->
+      <!--    <i class="fa fa-caret-down"></i>-->
+      <!--   </button>-->
+      <!--  <div class="dropdown-content">-->
+      <!--    <a href="#">Microwave Ovens</a>-->
+      <!--    <a href="#">Ranges</a>-->
+      <!--    <a href="#">Refrigerators</a>-->
+      <!--  </div>-->
+      <!--  </div>-->
+      <!--  <div class="dropdown">-->
+      <!--  <button class="dropbtn">Computers-->
+      <!--    <i class="fa fa-caret-down"></i>-->
+      <!--   </button>-->
+      <!--  <div class="dropdown-content">-->
+      <!--    <a href="#">Microwave Ovens</a>-->
+      <!--    <a href="#">Ranges</a>-->
+      <!--    <a href="#">Refrigerators</a>-->
+      <!--  </div>-->
+      <!--  </div>-->
+      <!--  <div class="dropdown">-->
+      <!--  <button class="dropbtn">Accessories-->
+      <!--    <i class="fa fa-caret-down"></i>-->
+      <!--   </button>-->
+      <!--  <div class="dropdown-content">-->
+      <!--    <a href="#">Microwave Ovens</a>-->
+      <!--    <a href="#">Ranges</a>-->
+      <!--    <a href="#">Refrigerators</a>-->
+      <!--  </div>-->
+      <!--</div> -->
+    </nav>
+    <p id="paragraph">The Real Time Search Engine That Let's You Find The Doctor or Physician You Need</p>
+    <main role="main">
+      <div id="searchDiv">
+        <form id="docsearch">
+      <div>
+        <label for="gender">Do You Care if Your Doctor is Male or Female (leave blank if "no"):  </label>
+          <select>
+          <option value="Prefer">ML</option>
+          <option value="Prefer">FEM</option>
+          <option value="Prefer">DonCare</option>
+          </select>
+      </div>
+      <div>
+        <label for="mail">Are You Presently In Need Of Care For A Specific Illness or Ailment? (If not, leave blank.)</label>
+        <input type="email" id="mail" name="user_mail">
+      </div>
+      <div>
+        <label for="msg">In What Zip Code Are You Looking To Find Your Doctor?</label>
+        <input id="location" name="location">
+      </div>
+        <br>
+          <button type="submit" id="searchButton">Search</button>
+      </form>
+      </div>
+    </main>
+    <footer id="footer">
+      <ul>
+        <li>CopyRight KenGary 2018</li>
+      </ul>
+    </footer>
+  </body>
+</html>
