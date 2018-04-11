@@ -1,5 +1,4 @@
 # Capstone-AjaxAPI-MyDoc
-4-9TestGit
 
 A search app referencing a database of medical & psychological practitioners,  
 Users can search a selected area for the practitioner of the choice using a few simple parameters
