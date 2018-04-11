@@ -8,7 +8,7 @@ Users can search a selected area for the practitioner of the choice using a few 
 Your healthcare is one of the most important aspects of your life.  Having a viable search engine where you can find the type of doctor you want is important
 
 ## Build Status
-Copmlete
+Complete
 
 ## ScreenShot
 Home Page/Landing Page:
@@ -33,5 +33,5 @@ Reference-style:
 ## Features
 Selectable Search Options for users 
 
-##[Live Demo](https://ajaxapp1a--kjax101.repl.co)
+[Live Demo](https://ajaxapp1a--kjax101.repl.co)
 
