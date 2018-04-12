@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width"  >
+    <title>MyDoctor.com - Ken Gary</title>
+    <link href="css/index.css" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="scripts/index.js"></script>
+  </head>
+    <body>
+      <main role="main">
+        <header>
+            <a href="#" id="logo"></a>
+            <nav>
+                <a href="#" id="menu-icon"></a>
+                <ul>
+                    <li><a href="https://www.webmd.com/search/search_results/default.aspx?query=oncology" title="Click Here to Find the Latest Research and Information" target="_blank">Oncology/Cancer</a></li>
+                    <li><a href="https://www.webmd.com/search/search_results/default.aspx?query=diabetes" title="Click Here to Find the Latest Research and Information">Diabetes</a></li>
+                    <li><a href="https://www.webmd.com/search/search_results/default.aspx?query=alzheimer" title="Click Here to Find the Latest Research and Information">Alzheimer's</a></li>
+                    <li><a href="https://www.webmd.com/search/search_results/default.aspx?query=heart" title="Click Here to Find the Latest Research and Information">Heart Health</a></li>
+                    <li><a href="https://www.webmd.com/search/search_results/default.aspx?query=nutrition" title="Click Here to Find the Latest Research and Information">Nutrition &amp; Wellnesss</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div id="content" class="backgroundImg">
+            <h1 class="heading">Find a Doctor or Physician Who's Right for You</h1>
+            <div id="searchDiv">
+                <form id="docsearch" action="">
+                    <div>
+                        <label id="Question1" for="gender">
+                            Doctor Gender:
+
+                            <select id="selectGender">
+                                <option value="">No Preference</option>
+                                <option value="female">Female </option>
+                                <option value="male">Male</option>
+                            </select>
+                        </label>
+                    </div>
+                    <div>
+                        <label id="Question2" for="keyword">
+                            Specialist Type:
+                            <select type="text" id="keyword" value=""></select>
+                        </label>
+                    </div>
+                    <div>
+                        <label id="Question3" for="msg">
+                            Zip Code:
+
+                            <input type="text" id="location" name="location" value="">
+                        </label>
+                    </div>
+                    <div>
+                        <button type="submit" id="searchButton">Search</button>
+                    </div>
+                </form>
+            </div>
+            <div id="loader"><img src="img/loader_33.gif" width="320"></div>
+            <div id="results">
+
+                <table id="table">
+                    <thead>
+                        <tr>
+                            <th>Firstname</th>
+                            <th>Lastname</th>
+                            <th>Address</th>
+                            <th>PhoneNum</th>
+                            <th>Website</th>
+                        </tr>
+                    </thead>
+                    <tbody id="resultsTable"></tbody>
+                </table>
+            </div>
+        </div>
+        <footer>
+            <p class="centerTxt">&copy;CopyRight KenGary 2018</p>
+        </footer>
+      </main>
+    </body>
+</html>

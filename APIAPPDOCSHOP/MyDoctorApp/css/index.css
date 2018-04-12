@@ -1,0 +1,270 @@
+/*Defaults for HTML tags at the top */
+
+body {
+    margin: 0px;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form {
+    background-color: rgba(255, 255, 255, .8);
+    padding: 5px;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    display: none;
+}
+
+td {
+    padding: 10px;
+    max-width: 300px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+footer {
+    color: white;
+    padding: 0;
+    background-color: darkred;
+    width: 100%;
+    position: absolute;
+    padding: 10px 0;
+    bottom: 0;
+}
+
+
+
+/* Styles for the nav logo */
+#mainLogo {
+    display: inline;
+    width: 20%;
+    float: left;
+    margin: 10px 0;
+}
+
+.mainLogoAnchor {
+    width: 100% !important;
+    padding: 0 0 0 8px !important;
+}
+
+.mainLogoAnchor span{
+    font-family: "Times New Roman", Helvetica, Sans-Serif;
+    font-size: 40px;
+    color: white;
+    width: 100%;
+}
+
+#mainLogoImg {
+    display: inline;
+    vertical-align: text-top;
+    padding: 8px 0 0 8px;
+    float: left;
+}
+
+#mainLogoText {
+    display: inline;
+    float: left;
+}
+
+header {
+    background: darkred;
+    width: 100%;
+    height: 76px;
+    position: static;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+#logo {
+    margin: 10px;
+    float: left;
+    width: 147px;
+    height: 50px;
+    background: url('../img/logo.png') no-repeat center;
+    display: block;
+}
+
+nav {
+    float: right;
+    padding: 20px;
+}
+
+#menu-icon {
+    display: none;
+    width: 40px;
+    height: 40px;
+    background: darkred url('../img/icon50.png') center;
+}
+
+a:hover#menu-icon {
+    background-color: darkred;
+    border-radius: 4px 4px 0 0;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+}
+
+li {
+    display: inline-block;
+    float: left;
+    padding: 10px;
+    
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.centerTxt {
+    text-align: center;
+
+}
+
+.heading {
+    clear: both;
+    font-size: 22px;
+    text-align: center;
+    color: white;
+    background-color: #0251A0;
+    padding: 5px 0;
+}
+
+/* do calc - navbar, footer, h1 */
+#content {
+    clear: both;
+    margin: 0 auto;
+    width: 100%;
+    height: 72vh;
+    overflow: auto;
+}
+
+#searchDiv, #searchDiv form {
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#searchDiv form div {
+    display: inline;
+    padding: 0 8px 0 0;
+    width: 25%;
+}
+
+#loader {
+width:100%;
+    display: none;
+    text-align: center;
+    margin: 0 auto;
+}
+
+    #results, #results table {
+        margin: 0 auto;
+        width: 100%;
+        overflow: auto;
+    }
+
+#results table tr th, #results table tr td {
+    margin: 0 auto;
+    width: 20%;
+    text-align: center;
+}
+
+.backgroundImg {
+    background-image: url('../img/background.jpg');
+    background-repeat: no-repeat;
+    background-position: center 12vh;
+}
+
+#searchButton {
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #0251A0;
+}
+
+#searchButton:hover {
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 16px;
+    background-color: #0251A0;
+    color: #fff;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (max-width : 640px) {
+    /* Styles */
+    header {
+        position: sticky;
+    }
+
+    #logo {
+        margin: 10px;
+        float: left;
+        width: 147px;
+        height: 50px;
+        background: url('../img/logo.png') no-repeat center;
+        display: block;
+    }
+
+    .heading {
+        font-size: 1em;
+    }
+    #menu-icon {
+        display: inline-block;
+    }
+
+    nav ul, nav:active ul {
+        display: none;
+        position: absolute;
+        background: darkred;
+        right: 0;
+        top: 60px;
+        width: 100%;
+        border-radius: 4px 0 4px 4px;
+    }
+
+    nav li {
+        text-align: center;
+        width: 100%;
+        padding: 10px 0;
+        margin: 0;
+    }
+
+    nav:hover ul {
+        display: block;
+    }
+
+    #searchDiv form div {
+        display: block;
+        padding: 0 8px 0 0;
+        width: 100%;
+        margin: 8px 0;
+    }
+
+    .backgroundImg {
+        background: white;
+    }
+
+    footer {
+        color: white;
+        padding: 10px 0;
+        background-color: darkred;
+        width: 100%;
+        height: auto;
+        position: sticky;
+        bottom: 0;
+    }
+}
+
+
