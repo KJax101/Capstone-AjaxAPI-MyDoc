@@ -15,7 +15,7 @@ Home Page/Landing Page:
 Reference-style: 
 ![alt text][image]
 
-[image]: https://github.com/KJax101/Capstone-AjaxAPI-MyDoc/blob/master/MyDocMainPageImg.png "Main Page Image"
+[image]: https://github.com/KJax101/Capstone-AjaxAPI-MyDoc/blob/master/MyDoctorMainImage.png "Main Page Image"
 
 ## Search
 *	Functional Search Box Using Ajax Request/ Formatted via JSON
